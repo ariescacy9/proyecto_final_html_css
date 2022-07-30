@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/logito.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <title>Tienda de Repuestos  Automoviles</title>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><img src="img/logito.png" alt="logo" class="logo1"></div>
+      <nav class="navegacion">
+        <ul class="menu">
+          <li><a href="products.html">PRODUCTS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#">REGISTER|LOGIN</a>
+            <ul class="submenu">
+              <li><a href="#" id="btn-Abrir2">LOGIN</a></li>
+              <li><a href="#" id="btn-Abrir">REGISTER</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="redes_Sociales">
+        <div><a href="#"><img src="img/facebook.png" alt="icon_facebook" class="sociales"></a></div>
+        <div><a href="#"><img src="img/whatsapp.png" alt="icon_whatsapp" class="sociales"></a></div>
+      </div>
+    </header>
+    <div class="contend">
+      <div class="presentacion">
+        <div>
+          <!-- onloadedmetadata="this.muted=true" -->
+          <video autoplay loop>
+            <source src="img/autos1.mp4" type="">
+          </video>
+        </div>
+        <div class="texto_principal">
+          <h1>BUENA CALIDAD A PRECIO JUSTO</h1>
+          <h2>tenemos todo tipo de articulos y accesorios para su vehiculo</h2>
+        </div>
+      </div>
+      <div class="overlay" id="overlay">
+          <div class="register" id="register">
+            <a href="#"  class="btn-cerrar-popup" id="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <form action="">
+              <h3>REGISTER</h3>
+              <input type="text-input" required placeholder="Username">
+              <input type="email" required placeholder="E-mail">
+              <input type="password" required placeholder="Password">
+              <input type="password" required placeholder="Repeat Password">
+              <button>CREATE YOUR ACCOUNT</button>
+            </form>
+          </div>
+      </div>
+      <div class="overlay2" id="overlay2">
+        <div class="login" id="login">
+          <a href="#"  class="btn-cerrar-popup2" id="btn-cerrar-popup2"><i class="fas fa-times"></i></a>
+            <form action="">
+              <h3>LOGIN</h3>
+              <input type="email" required placeholder="E-mail">
+              <input type="password" required placeholder="Password">
+              <input type="password" required placeholder="Repeat Password">
+              <button>LOGIN NOW</button>
+              <a href="#">Forget your password</a>
+            </form>
+        </div>
+    </div>
+      
+      <div class="porque">
+        <h2>¿POR QUÉ ELEGIRNOS?</h2>
+        <p>Somos la empresa líder en la comercialización de productos de alta calidad para el mercado automotriz.  Todos los servicios mecánicos son realizados por mecánicos altamente calificados.</p>
+      </div>
+      <div class="ventajas">
+        <div class="ventaja ventaja_1">
+          <h3>servicio personalizado</h3>
+          <p>Si desea la calidad que esperaría del concesionario, pero con un ambiente más personal y amigable, somos la opción</p>
+        </div>
+        <div class="ventaja ventaja_2">
+          <h3>Orientación en la compra</h3>
+          <p>Tenemos software diseñado específicamente para saber las partes dependientes y compatibles de las diferentes marcas</p>
+        </div>
+        <div class="ventaja ventaja_3">
+          <h3>Productos de calidad</h3>
+          <p>Evaluamos previamente las piezas para ofrecer la mejor calidad en las usadas y a esto sumamos garantía a las mismas.</p>
+        </div>
+      </div>
+      <div class="variedad">
+        <img src="img/auto.png" alt="autos">
+        <h1>ESPECIALIZADO SEGUN MODELOS DE VEHÍCULOS</h1>
+        <p>Brindamos un servicio de primer nivel para todas estas marcas de vehículos. Estamos más que capacitados para orientarle sobre soluciones alternas o compatibles de las siguientes marcas:</p>
+      </div>
+      <div class="modelos">
+        <div class="autos autos_rapidos">
+          <ul>
+            <li>Kia</li>
+            <li>Chevrolet</li>
+            <li>Ford</li>
+            <li>Hyundai</li>
+            <li>Peugeot</li>
+            <li>Skoda</li>
+            <li>BMW</li>
+          </ul>
+        </div>
+        <div class="autos autos_pesados">
+          <ul>
+            <li>Volkswagen</li>
+            <li>Subaru</li>
+            <li>Suzuki</li>
+            <li>Infiniti</li>
+            <li>Daihatsu</li>
+            <li>Acura</li>
+            <li>Mercedes Benz</li>
+          </ul>
+        </div>
+        <div class="autos autos_caminetas">
+          <ul>
+            <li>Buick</li>
+            <li>Cadillac</li>
+            <li>Chrysler</li>
+            <li>Dodge</li>
+            <li>Jeep</li>
+            <li>Lincoln</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h1>NOSOTROS SOMOS</h1>
+        <p>Somos una empresa establecida desde hace 26 años, especialistas en venta de repuesto para vehículos japoneses y versión americana.</p>
+      </div>
+      <div class="contact" id="contact">
+        <form class="formulario" action="">
+          <h3>dejanos tu mensaje</h3>
+          <input type="text" placeholder="Nombres*">
+          <input type="email" name="" id="" placeholder="Correo*">
+          <input type="text" placeholder="asunto">
+          <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+          <button>Enviar</button>
+        </form>
+        <div class="referencia">
+          <h1>puede ubicarnos en la siguiente direccion</h1>
+          <p>Calle Lope de Vega, #132, Ensanche La Fe, Santo Domingo, República Dominicana.</p>
+          <ul>
+            <li><span>telefono</span><span>(809) 948-0000</span></li>
+            <li><span>correo:</span><span>repuestosnunez132@gmail.com</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="timeAttention">
+        <h4>HORARIOS DE ATENCIÓN</h4>
+        <ul>
+          <li><span>Lunes</span><span>8:00 am - 6:00 pm</span></li>
+          <li><span>Martes</span><span>8:00 am - 6:00 pm</span></li>
+          <li><span>Miercoles</span><span>8:00 am - 6:00 pm</span></li>
+          <li><span>Jueves</span><span>8:00 am - 6:00 pm</span></li>
+          <li><span>Viernes</span><span>8:00 am - 6:00 pm</span></li>
+          <li><span>Sabado</span><span>8:00 am - 1:00 pm</span></li>
+          <li><span>Domingo</span><span>cerrado</span></li>
+        </ul>
+      </div>
+      <div class="icon_dev">
+        <a href="http://"><img src="img/facebook.png" alt="icon_facebook"></a>
+        <a href="http://"><img src="img/whatsapp.png" alt="icon_instagram"></a>
+      </div>
+      <div class="copyright">
+        <span>Todos los derechos reservados ® 2022. Diseño web por CACY</span>
+      </div>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
